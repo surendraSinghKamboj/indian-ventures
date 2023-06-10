@@ -7,8 +7,8 @@ const NavLinks = () => {
   const [subHeading, setSubHeading] = useState("");
   return (
     <>
-      {links.map((link) => (
-        <div style={{zIndex:"20"}}>
+      {links.map((link,i) => (
+        <div style={{zIndex:"20"}} key={i}>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1
               className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
