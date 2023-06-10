@@ -5,11 +5,14 @@ import Button from "./Button";
 import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const OnSlideChange = () =>{
+       setOpen(false);
+  }
   return (
     <nav className="bg-white">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-         <Link to='/'><img src={Logo} alt="logo" className="md:cursor-pointer h-12 rounded-md" /></Link>
+         <Link to='/'><img onClick={OnSlideChange} src={Logo} alt="logo" className="md:cursor-pointer h-12 rounded-md" /></Link>
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
@@ -22,7 +25,7 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <li>
-            <Link to="/about" className="py-7 px-3 inline-block">
+            <Link to="/about" className={`py-7 px-3 inline-block `}>
               ABOUT
             </Link>
           </li>
@@ -43,22 +46,22 @@ const Navbar = () => {
         `}
         >
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" onClick={OnSlideChange} className="py-7 px-3 inline-block">
               Home
             </Link>
           </li>
           <NavLinks />   
           <li>
-            <Link to="/about" className="py-7 px-3 inline-block">
+            <Link to="/about" onClick={OnSlideChange} className="py-7 px-3 inline-block">
               ABOUT
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="py-7 px-3 inline-block">
+            <Link to="/contact" onClick={OnSlideChange} className="py-7 px-3 inline-block">
                CONTACT
             </Link>
           </li>
-          <div className="py-5">
+          <div className="py-5" onClick={OnSlideChange}>
             <Button />
           </div>
         </ul>
