@@ -4,7 +4,7 @@ import Navbar from "./components/Home-Page/Navbar/Navbar";
 import Contact from "./components/Contact";
 import Home from "./components/Home-Page/Home";
 const App = () => {
-  return (
+  return ( 
     <section
       className="h-screen bg-Hero bg-cover
       font-[Poppins] md:bg-top bg-center"

@@ -28,9 +28,9 @@ const Navbar = () => {
            <p className="flex items-center gap-2"><BsTelephone/>Phone No</p>
         </div>
         <div className="flex items-center" onClick={changeThemState}>
-        {
-          themIcon ?  <BsFillMoonFill className="text-white md:text-2xl text-3xl"/> : <BsFillSunFill className="text-white md:text-2xl text-3xl"/>
-        }    
+           {
+              themIcon ?  <BsFillMoonFill className="text-white md:text-2xl text-3xl cursor-pointer"/> : <BsFillSunFill className="text-white md:text-2xl text-3xl cursor-pointer"/>
+           }    
         </div>
     </div>
       <div className="flex items-center font-medium justify-around">
