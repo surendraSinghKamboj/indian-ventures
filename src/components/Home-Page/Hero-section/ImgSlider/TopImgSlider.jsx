@@ -1,6 +1,7 @@
  import React, { useState } from 'react';
  import './TopImgSlider.css';
- import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs'
+ import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs';
+ import '../../../../index.css';
 
  const TopImgSlider = ({data}) => {
     const [slide,setSlide] = useState(0);

@@ -4,3 +4,36 @@
 @tailwind components;
 @tailwind utilities;
  
+.dark-theme{
+     --text-Color:rgb(170, 170, 170);
+     --main-Heading-Color:white;
+     --icon-Color: white;
+     --background-Color:black;
+     --defalut-Black: white;
+}
+
+.light-theme{
+    --text-Color:rgb(72, 69, 69);
+    --main-Heading-Color:black;
+    --icon-Color: black;
+    --background-Color:white;
+    --defalut-Black: black;
+}
+
+.textClr{
+    color: var(--text-Color);
+}
+.headClr{
+    color: var(--main-Heading-Color);
+}
+.iconClr{
+    color: var(--icon-Color);
+}
+.bgClr{
+    background-color: var(--background-Color);
+}
+.defBlack{
+    background-color: black;
+    color:white;
+}
+

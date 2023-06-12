@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 88vh;
+    height: 90vh;
 }
 @media (max-width: 600px){
      .carousel{
@@ -31,6 +31,7 @@
     height: 3rem;
     color: white;
 }
+
 .arrow:hover{
     cursor: pointer;
 }
