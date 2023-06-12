@@ -1,5 +1,10 @@
 .dimensions{
-    /* height: 290px; */
+    height: 310px;
     width: 300px;
     /* border: 2px solid red; */
 }
+@media screen and (max-width: 1024px) {
+     .dimensions{
+        height: auto;
+     }
+  }
