@@ -4,6 +4,7 @@ import Navbar from "./components/Home-Page/Navbar/Navbar";
 import Contact from "./components/Contact";
 import Home from "./components/Home-Page/Home";
 import '../src/index.css';
+import GoToTopButton from "./components/GoToTopButton";
 const App = () => {
   return (
     <section
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <GoToTopButton/>
     </section>
   );
 };
