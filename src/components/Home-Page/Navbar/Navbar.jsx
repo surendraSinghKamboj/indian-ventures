@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [theme]);
   return (
     <nav className="bgClr headClr">
-      <div className=" bg-black p-2 text-white flex justify-end md:pr-10 pr-6 defBlack textClr ">
+      <div className=" bg-black p-2 text-white flex justify-end md:pr-10 pr-6 defBgClr defTextClr ">
         <div className="flex md:gap-7 gap-2 md:ml-0 ml-3 flex-wrap pr-16 ">
           <p className="flex items-center gap-2">
             <AiOutlineMail />
@@ -43,9 +43,9 @@ const Navbar = () => {
         </div>
         <div className="flex items-center" onClick={changeThemState}>
           {themIcon ? (
-            <BsFillMoonFill className="text-white md:text-2xl text-3xl cursor-pointer" />
+            <BsFillMoonFill className="text-white md:text-2xl text-3xl cursor-pointer defIconClr" />
           ) : (
-            <BsFillSunFill className="text-white md:text-2xl text-3xl cursor-pointer" />
+            <BsFillSunFill className="text-white md:text-2xl text-3xl cursor-pointer defIconClr" />
           )}
         </div>
       </div>

@@ -9,7 +9,10 @@
      --main-Heading-Color:white;
      --icon-Color: white;
      --background-Color:black;
-     --defalut-Black: white;
+     --default-Top-line-bg-Clr: white;
+     --default-Top-line-text-Clr: black;
+     --def-icon-color:black;
+     
 }
 
 .light-theme{
@@ -17,7 +20,9 @@
     --main-Heading-Color:black;
     --icon-Color: black;
     --background-Color:white;
-    --defalut-Black: black;
+    --default-Top-line-bg-Clr: black;
+    --default-Top-line-text-Clr: white;
+    --def-icon-color:white;
 }
 
 .textClr{
@@ -32,8 +37,12 @@
 .bgClr{
     background-color: var(--background-Color);
 }
-.defBlack{
-    background-color: black;
-    color:white;
+.defBgClr{
+    background-color:var(--default-Top-line-bg-Clr);
 }
-
+.defTextClr{
+    color: var(--default-Top-line-text-Clr);
+}
+.defIconClr{
+    color:var(--def-icon-color)
+}
