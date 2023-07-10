@@ -1,0 +1,22 @@
+.parent{
+    margin: 2% 10%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.card{
+    -webkit-box-shadow: 0px 0px 9px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 9px -4px rgba(0,0,0,1);
+     box-shadow: 0px 0px 9px -4px rgba(0,0,0,1);
+    height: 185px;
+    width: 185px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

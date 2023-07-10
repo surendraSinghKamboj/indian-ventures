@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home-Page/Home";
 import '../src/index.css';
 import GoToTopButton from "./components/GoToTopButton";
+import Industries from "./components/IndustriesWeServe/Industries";
 const App = () => {
   return (
     <section
