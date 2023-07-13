@@ -6,8 +6,10 @@ export const links = [
       {
         Head: "MOBILE",
         sublink: [
-          { name: "Android", link: "/" },
-          { name: "IOS", link: "/" },
+          { name: "Android", link: "/android" },
+          { name: "IOS", link: "/ios" },
+          { name: "App Development", link: "/appdevelopment" },
+          {name:"Web App (PWA) Development",link:"/webdevelopment"},
           { name: "React", link: "/" },
           { name: "Full Stack", link: "/" },
         ],
