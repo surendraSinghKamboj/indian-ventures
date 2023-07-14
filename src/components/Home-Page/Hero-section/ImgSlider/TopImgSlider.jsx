@@ -2,8 +2,9 @@
  import './TopImgSlider.css';
  import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs';
  import '../../../../index.css';
+import {slides as data} from "./sliderData";
 
- const TopImgSlider = ({data}) => {
+ const TopImgSlider = () => {
     const [slide,setSlide] = useState(0);
 
     const nextSlide =()=>{
