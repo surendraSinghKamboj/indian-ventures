@@ -1,6 +1,6 @@
-import img_one from "../../../assets/img1.png";
-import img_two from "../../../assets/img2.png";
-import img_three from "../../../assets/img3.png";
+import img_one from "../../../../assets/img1.png";
+import img_two from "../../../../assets/img2.png";
+import img_three from "../../../../assets/img3.png";
 
 
 export const slides = [
