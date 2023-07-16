@@ -27,10 +27,10 @@ const Pyramid = () => {
     camera.position.z = 5;
 
     const animate = () => {
-      frameId = requestAnimationFrame(animate);
       pyramid.rotation.x += 0.01;
       pyramid.rotation.y += 0.01;
       renderer.render(scene, camera);
+      frameId = requestAnimationFrame(animate);
     };
     animate();
 
@@ -40,7 +40,7 @@ const Pyramid = () => {
     };
   }, []);
 
-  return <div ref={containerRef} />;
+  return <div style={{ width: '100%', height: '100%' }} ref={containerRef} />;
 };
 
 export default Pyramid;
