@@ -63,20 +63,20 @@ const Navbar = () => {
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins]">
+        <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins] nav-links">
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" className="py-7 px-3 inline-block link" >
               Home
             </Link>
           </li>
           <NavLinks />
           <li>
-            <Link to="/about" className={`py-7 px-3 inline-block `}>
+            <Link to="/about" className={`py-7 px-3 inline-block link`}>
               ABOUT
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="py-7 px-3 inline-block">
+            <Link to="/contact" className="py-7 px-3 inline-block link">
               CONTACT
             </Link>
           </li>
@@ -86,10 +86,9 @@ const Navbar = () => {
         </div>
         {/* Mobile nav */}
         <ul
-          className={` z-20 bgClr
-        md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-36 pl-4
-        duration-500 ${open ? "left-0" : "left-[-100%]"}
-        `}
+         
+        className={`z-20 bgClr md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-36 pl-4
+        duration-500 ${open ? "left-0" : "left-[-100%]"}`}
         >
           <li>
             <Link

@@ -47,3 +47,15 @@
 .defIconClr{
     color:var(--def-icon-color)
 }
+/* navbar.css */
+/* Style for the links */
+
+.link:hover{
+    padding: 7px 20px; /* Adjust padding as needed */
+    background-color:blue; /* Set the initial background color */
+    color: rgb(249, 247, 247); /* Set the initial text color */
+  
+    border-radius:30px; /* Adjust the border radius as needed */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effects */
+}

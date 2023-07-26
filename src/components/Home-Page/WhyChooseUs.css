@@ -1,0 +1,71 @@
+/* WhyChooseUs.css */
+.why-choose-us-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .why-choose-us-heading h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .why-choose-us-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card-main {
+    flex: 1;
+    max-width: 300px;
+    min-height: 320px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #ccc;
+  }
+  
+  .card-main:hover {
+    transform: translateY(-4px);
+  }
+  
+  .card-main h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(12, 27, 245);
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card-main p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
+    word-spacing:-2px;
+  }
+  
+  .card-main:nth-child(1) {
+    background-color: #fcfcfc;
+  }
+  
+  .card-main:nth-child(2) {
+    background-color: #fcfcfc;
+  }
+  
+  .card-main:nth-child(3) {
+    background-color: #fcfcfc;
+  }
+  

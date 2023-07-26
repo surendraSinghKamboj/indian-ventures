@@ -1,0 +1,56 @@
+/* WeAre.css */
+.core-values-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .core-values-heading h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .core-values-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card-div {
+    flex: 1;
+    max-width: 300px;
+    min-height: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+  }
+  
+  .card-div:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-div h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(33, 39, 230);
+    margin-bottom: 10px;
+    
+
+  }
+  
+  .card-div p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    text-align: justify;
+    word-spacing:-1.5px;
+  }
+  
