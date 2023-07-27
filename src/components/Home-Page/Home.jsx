@@ -3,7 +3,7 @@ import TopImgSlider from './Hero-section/ImgSlider/TopImgSlider'
 import Footer from './Footer/Footer';
 import Industries from '../IndustriesWeServe/Industries';
 import '../../index.css';
-import WhyChooseUs from './Whychooseus';
+import WhyChooseUs from './WhyChooseus';
 
 const Home = () => {
   return (
