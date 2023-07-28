@@ -27,23 +27,23 @@ const Industries = () => {
         </p>
         <div className='cards'>
             <div className='card'>
-                 <MdCarRepair className=' text-7xl ' />
+                 <MdCarRepair className='text-7xl' />
                 <p>Automobile</p>
-            </div>
+            </div> 
             <div className='card'>
-                 <FaShoppingCart className=' text-7xl ' />
+                 <FaShoppingCart className='text-7xl' />
                 <p>E-commerce</p>
             </div>
             <div className='card'>
-                 <GiMedicines className=' text-7xl ' />
+                 <GiMedicines className='text-7xl' />
                 <p>Pharma</p>
             </div>
             <div className='card'>
-               <GiTakeMyMoney className=' text-7xl'/>
+               <GiTakeMyMoney className='text-7xl'/>
                 <p>Finance</p>
             </div>
             <div className='card'>
-                 <BiMovie className=' text-7xl ' />
+                 <BiMovie className='text-7xl' />
                 <p>Entertainment</p>
             </div>
             <div className='card'>
