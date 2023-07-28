@@ -20,7 +20,7 @@
     --main-Heading-Color:black;
     --icon-Color: black;
     --background-Color:white;
-    --default-Top-line-bg-Clr: black;
+    --default-Top-line-bg-Clr: rgb(0, 0, 0);
     --default-Top-line-text-Clr: white;
     --def-icon-color:white;
     
@@ -51,11 +51,9 @@
 /* Style for the links */
 
 .link:hover{
-    padding: 7px 20px; /* Adjust padding as needed */
+   border-radius: 20px;
     background-color:blue; /* Set the initial background color */
     color: rgb(249, 247, 247); /* Set the initial text color */
-  
-    border-radius:30px; /* Adjust the border radius as needed */
+     /* Adjust the border radius as needed */
     text-decoration: none; /* Remove underline from links */
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effects */
 }

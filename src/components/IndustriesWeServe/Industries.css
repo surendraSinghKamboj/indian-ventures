@@ -19,8 +19,17 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .card:hover{
-  border:solid 1px black;
+  border:solid 1px rgb(211, 208, 208);
+  background-color:rgb(33, 39, 230);
+  color:white;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; 
+}
+@media screen and (max-width: 768px) {
+     .card{
+         height: 130px;
+         width: 130px;
+     }
 }

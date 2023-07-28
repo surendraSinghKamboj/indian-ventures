@@ -65,18 +65,18 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins] nav-links">
           <li>
-            <Link to="/" className="py-7 px-3 inline-block link" >
+            <Link to="/" className="py-[5px] px-3 inline-block link" >
               Home
             </Link>
           </li>
           <NavLinks />
           <li>
-            <Link to="/about" className={`py-7 px-3 inline-block link`}>
+            <Link to="/about" className={`py-[5px] px-3 inline-block link`}>
               ABOUT
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="py-7 px-3 inline-block link">
+            <Link to="/contact" className="py-[5px] px-3 inline-block link">
               CONTACT
             </Link>
           </li>
