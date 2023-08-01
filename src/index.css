@@ -6,28 +6,34 @@
  
 .dark-theme{
      --text-Color:rgb(170, 170, 170);
-     --main-Heading-Color:white;
+     --text-Color-White:white;
+     --main-Heading-Color:white; 
      --icon-Color: white;
      --background-Color:black;
      --default-Top-line-bg-Clr: white;
      --default-Top-line-text-Clr: black;
      --def-icon-color:black;
-     
+     --border-Color-black:1px solid black;
 }
 
 .light-theme{
     --text-Color:rgb(72, 69, 69);
+    --text-Color-White:black;
     --main-Heading-Color:black;
     --icon-Color: black;
     --background-Color:white;
     --default-Top-line-bg-Clr: rgb(0, 0, 0);
     --default-Top-line-text-Clr: white;
     --def-icon-color:white;
+    --border-Color-black:none;
     
 }
 
 .textClr{
     color: var(--text-Color);
+}
+.textClrWhite{
+    color:var(--text-Color-White)
 }
 .headClr{
     color: var(--main-Heading-Color);
@@ -36,7 +42,7 @@
     color: var(--icon-Color);
 }
 .bgClr{
-    background-color: var(--background-Color);
+    background-color: var( --background-Color);
 }
 .defBgClr{
     background-color:var(--default-Top-line-bg-Clr);
@@ -46,6 +52,10 @@
 }
 .defIconClr{
     color:var(--def-icon-color)
+}
+.boderBlack{
+    /* color:var(--border-Color-black) */
+    border:var(--border-Color-black) ;
 }
 /* navbar.css */
 /* Style for the links */

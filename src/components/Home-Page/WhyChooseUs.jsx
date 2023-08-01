@@ -3,9 +3,9 @@ import "./WhyChooseUs.css";
 
 const WhyChooseUs = () => {
   return (
-    <div className="why-choose-us-container">
+    <div className="bgClr why-choose-us-container">
       <div className="why-choose-us-heading">
-        <h2>Why Choose Indian Ventures</h2>
+        <h2 className="textClrWhite">Why Choose Indian Ventures</h2>
       </div>
       <div className="why-choose-us-content">
         <div className="card-main">

@@ -100,7 +100,7 @@ const Navbar = () => {
             </Link>
           </li>
           <NavLinks />
-          <li>
+          <li> 
             <Link
               to="/about"
               onClick={OnSlideChange}

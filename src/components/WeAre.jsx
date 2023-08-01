@@ -3,9 +3,9 @@ import "./weare.css"; // Import the CSS file with the updated styles
 
 const WeAre = () => {
   return (
-    <div className="core-values-container">
+    <div className="core-values-container bgClr">
       <div className="core-values-heading">
-        <h2>We Are</h2>
+        <h2 className="textClrWhite">We Are</h2>
       </div>
       <div className="core-values-content">
         <div className="card-div">

@@ -1,6 +1,5 @@
 /* WhyChooseUs.css */
 .why-choose-us-container {
-    background-color: #f9f9f9;
     padding: 40px;
     text-align: center;   
 }
@@ -8,7 +7,6 @@
   .why-choose-us-heading h2 {
     font-size: 36px;
     font-weight: bold;
-    color: #333;
     margin-bottom: 20px;
   }
   
@@ -30,11 +28,13 @@
     transition: transform 0.2s ease;
     margin-bottom: 20px;
     border: 2px solid #ccc;
+    
   }
   .card-main:hover{
       border-radius: 10px;
-      background-color:rgb(226, 232, 240);
+      background-color:rgb(164, 182, 205);
       transition: all .4s ease;
+     
   }
   
   .card-main h3 {

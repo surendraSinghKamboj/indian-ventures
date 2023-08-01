@@ -10,7 +10,9 @@ const Home = () => {
     <div className='bgClr'>
       <TopImgSlider />
       <Industries/>
+      <hr />
       <WhyChooseUs/>
+      <hr />
       <Footer/>
     </div>
   )
