@@ -12,9 +12,9 @@ function Ios() {
       <div className='android-content'>
         <h1 className='android-title'>Ios Development</h1>
         <p className='android-description'>
-          Get guaranteed scalability with expertise in everything related to Android app development.
-          Our team of Android developers will deliver high-performance, user-centric, and reliable
-          custom Android apps that work seamlessly across Android devices.
+        With our iOS application development services, we take care of your project from the outset to create a seamless app built with user experience, top-level performance, and scalability in mind.
+
+
         </p>
       </div>
     </div>

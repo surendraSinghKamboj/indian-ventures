@@ -13,7 +13,8 @@
      --default-Top-line-bg-Clr: white;
      --default-Top-line-text-Clr: black;
      --def-icon-color:black;
-     --border-Color-black:1px solid black;
+     --border-Color-black:2px solid black;
+     --industerios-Icon-Color:white;
 }
 
 .light-theme{
@@ -26,7 +27,7 @@
     --default-Top-line-text-Clr: white;
     --def-icon-color:white;
     --border-Color-black:none;
-    
+    --industerios-Icon-Color:black;
 }
 
 .textClr{
@@ -57,6 +58,13 @@
     /* color:var(--border-Color-black) */
     border:var(--border-Color-black) ;
 }
+.industriesIcon{
+   color: var(--industerios-Icon-Color);
+}
+.industriesIcon:hover{
+    color:white;
+ }
+
 /* navbar.css */
 /* Style for the links */
 

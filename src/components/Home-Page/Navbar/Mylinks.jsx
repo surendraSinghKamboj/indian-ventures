@@ -3,13 +3,13 @@ export const links = [
     name: "TECHNOLOGY",
     submenu: true,
     sublinks: [
-      {
+      {  
         Head: "MOBILE",
         sublink: [
           { name: "Android", link: "/android" },
           { name: "IOS", link: "/ios" },
-          { name: "App Development", link: "/appdevelopment" },
           {name:"Web App (PWA) Development",link:"/webdevelopment"},
+          { name: "Cross Platform App Development", link: "/crossplatformapp" },
           { name: "React", link: "/" },
           { name: "Full Stack", link: "/" },
         ],

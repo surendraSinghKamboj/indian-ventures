@@ -28,13 +28,11 @@
     transition: transform 0.2s ease;
     margin-bottom: 20px;
     border: 2px solid #ccc;
-    
   }
   .card-main:hover{
       border-radius: 10px;
-      background-color:rgb(164, 182, 205);
+      background-color:rgb(226, 232, 240);
       transition: all .4s ease;
-     
   }
   
   .card-main h3 {

@@ -7,7 +7,7 @@ import '../../../index.css';
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
-  return (
+  return (   
     <>
       {links.map((link,i) => (
         <div style={{zIndex:"20"}} key={i}>
